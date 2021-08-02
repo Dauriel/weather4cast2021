@@ -1,3 +1,5 @@
 # weather4cast2021
 
-# Fixing some issues when uploading the code, final version will be updated soon!
+# Final weights can be found in the following link:
+
+https://drive.google.com/file/d/1iqK4zw-iGCDt10V8fdc_tmM9kFMfSEFx/view?usp=sharing
