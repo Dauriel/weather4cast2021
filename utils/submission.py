@@ -108,8 +108,8 @@ def predictions_per_day(test_dates, model, ds_iterator, device, file_path, data_
 def main():
         # 1. Define model's checkpoints, regions per task & gpu id to use
     root_to_ckps = ''
-    checkpoint_paths = {'R1': f'{root_to_ckps}R3.ckpt', 
-                        'R2': f'{root_to_ckps}R3.ckpt', 
+    checkpoint_paths = {'R1': f'{root_to_ckps}R1.ckpt', 
+                        'R2': f'{root_to_ckps}R2.ckpt', 
                         'R3': f'{root_to_ckps}R3.ckpt'}
     challenges = {'w4c-core-stage-1': ['R1', 'R2', 'R3'], 'w4c-transfer-learning-stage-1': ['R4', 'R5', 'R6']}
     device = 0 # gpu id - SET THE ID OF THE GPU YOU WANT TO USE
